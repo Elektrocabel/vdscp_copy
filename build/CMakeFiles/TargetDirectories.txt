@@ -1,0 +1,9 @@
+/home/sergey/vdscp01_copy/build/CMakeFiles/rebuild_cache.dir
+/home/sergey/vdscp01_copy/build/CMakeFiles/edit_cache.dir
+/home/sergey/vdscp01_copy/build/CMakeFiles/VDSProject.dir
+/home/sergey/vdscp01_copy/build/src/CMakeFiles/rebuild_cache.dir
+/home/sergey/vdscp01_copy/build/src/CMakeFiles/edit_cache.dir
+/home/sergey/vdscp01_copy/build/src/CMakeFiles/Manager.dir
+/home/sergey/vdscp01_copy/build/src/test/CMakeFiles/rebuild_cache.dir
+/home/sergey/vdscp01_copy/build/src/test/CMakeFiles/edit_cache.dir
+/home/sergey/vdscp01_copy/build/src/test/CMakeFiles/VDSProject_test.dir

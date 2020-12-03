@@ -28,8 +28,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build and test
         run: |
-          cd build/
-          rm -r *
-          cmake ../
-          make
-          ./src/test/VDSProject_test 
+          ./build/src/test/VDSProject_test 

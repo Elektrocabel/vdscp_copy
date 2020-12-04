@@ -39,6 +39,7 @@ jobs:
       - name: Build and test
         run: |
           cd /home/runner/work/vdscp_copy/vdscp_copy/build/
+          rm -r *
           cmake ..
           make
           ./src/test/VDSProject_test

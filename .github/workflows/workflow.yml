@@ -25,7 +25,20 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Install googletest
+        run: |
+          git clone https://github.com/google/googletest.git -b release-1.10.0
+          cd googletest
+          mkdir build
+          cd build
+          cmake ..
+          make
+          sudo make install
+
       # Runs a set of commands using the runners shell
       - name: Build and test
         run: |
-          ./build/src/test/VDSProject_test 
+          cd /home/runner/work/vdscp_copy/vdscp_copy/build/
+          cmake ..
+          make
+          ./src/test/VDSProject_test

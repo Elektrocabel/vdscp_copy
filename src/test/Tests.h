@@ -10,8 +10,4 @@
 
 ClassProject::Manager manager;
 
-TEST(ConstantsTest, FalseTest) {
-    EXPECT_EQ(manager.False(), 0);
-}
-
 #endif //VDS_PROJECT_TESTS_H

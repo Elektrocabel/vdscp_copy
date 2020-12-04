@@ -24,7 +24,7 @@ namespace ClassProject {
 
         const BDD_ID &True() override {};
 
-        const BDD_ID &False() override { return 0; };
+        const BDD_ID &False() override {};
 
         bool isConstant(const BDD_ID f) override {};
 
